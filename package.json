@@ -1,0 +1,11 @@
+{
+  "name": "moleculer-lab",
+  "version": "0.0.1",
+  "description": "Small lab for teaching Moleculer basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adam.mccormick@intelliware.ca",
+  "license": "ISC"
+}
