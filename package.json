@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "moleculer-runner --repl src/services/**/*.service.js",
-    "test": "jest"
+    "test": "jest",
+    "redis": "docker run --rm --name mol-redis -p 6379:6379 -d redis"
   },
   "author": "adam.mccormick@intelliware.ca",
   "license": "ISC",
